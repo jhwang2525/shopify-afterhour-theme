@@ -145,10 +145,29 @@
               "apply_p": true,
               "apply_custom": ""
             }
+          },
+          "df25bb31-e7dc-475e-96e4-1c9647d2596c": {
+            "type": "image",
+            "settings": {
+              "name": "Helvetica Neue Hv",
+              "custom_font_weight": "none",
+              "custom_font_style": "none",
+              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0611\/9053\/7370\/files\/HelveticaNeueHv.woff2?v=1684447808",
+              "apply_h1": true,
+              "apply_h2": true,
+              "apply_h3": true,
+              "apply_h4": false,
+              "apply_h5": false,
+              "apply_h6": false,
+              "apply_span": false,
+              "apply_p": false,
+              "apply_custom": ""
+            }
           }
         },
         "block_order": [
-          "82d2aab9-75aa-4185-8336-ffa8d1404942"
+          "82d2aab9-75aa-4185-8336-ffa8d1404942",
+          "df25bb31-e7dc-475e-96e4-1c9647d2596c"
         ],
         "settings": {
           "enable": true
