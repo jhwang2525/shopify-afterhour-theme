@@ -124,6 +124,35 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "ezfy-custom-fonts": {
+        "type": "ezfy-custom-fonts",
+        "blocks": {
+          "82d2aab9-75aa-4185-8336-ffa8d1404942": {
+            "type": "image",
+            "settings": {
+              "name": "Open Sans",
+              "custom_font_weight": "none",
+              "custom_font_style": "none",
+              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0611\/9053\/7370\/files\/OpenSans-Semibold.woff2?v=1684447823",
+              "apply_h1": false,
+              "apply_h2": false,
+              "apply_h3": false,
+              "apply_h4": true,
+              "apply_h5": true,
+              "apply_h6": true,
+              "apply_span": true,
+              "apply_p": true,
+              "apply_custom": ""
+            }
+          }
+        },
+        "block_order": [
+          "82d2aab9-75aa-4185-8336-ffa8d1404942"
+        ],
+        "settings": {
+          "enable": true
+        }
       }
     },
     "content_for_index": [
