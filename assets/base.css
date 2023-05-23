@@ -3410,4 +3410,15 @@ padding-top: 0.5rem; padding-bottom: 0.5rem;}
 
 }
 
+.footer-block__heading {
+		margin-bottom: 1rem !important;
+	}
+	.footer-block__details-content .list-menu__item--link {
+		padding-top: 0.5rem !important;
+		padding-bottom: 0.5rem !important;
+	}
+	.footer-block__details-content.rte p {
+		margin-bottom: 0.5rem !important;
+		margin-top: 0.5rem !important;
+	}
  
