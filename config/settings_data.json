@@ -1,7 +1,7 @@
 {
   "current": {
     "logo": "shopify:\/\/shop_images\/AFTERHOUR_NEW_LOGO1.jpg",
-    "logo_width": 110,
+    "logo_width": 160,
     "type_header_font": "sans-serif",
     "heading_scale": 100,
     "type_body_font": "helvetica_n4",
@@ -112,6 +112,13 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_sidebar_background_color": "#ffffff",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#121212",
+    "checkout_button_color": "#121212",
+    "checkout_error_color": "#121212",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
