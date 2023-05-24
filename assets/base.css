@@ -4,6 +4,7 @@ a.link.link--text.list-menu__item.list-menu__item--link {
   font-weight: 400;
   line-height: 5%;
   font-family: sans-serif;
+  letter-spacing: -1px;
 }
 .footer-block__details-content.rte p {
   font-family: OpenSans;
