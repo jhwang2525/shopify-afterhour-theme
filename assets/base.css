@@ -1,7 +1,7 @@
 a.link.link--text.list-menu__item.list-menu__item--link {
     font-size: 12px !important;
   color: black;
-  font-weight: lighter;
+  font-weight: 200;
   line-height: 5%;
   font-family: HelveticaNeueHv;
 }
