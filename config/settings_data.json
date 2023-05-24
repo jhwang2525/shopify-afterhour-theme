@@ -134,7 +134,7 @@
               "name": "Open Sans",
               "custom_font_weight": "none",
               "custom_font_style": "none",
-              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0611\/9053\/7370\/files\/open-sans.zip?v=1684879482",
+              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0611\/9053\/7370\/files\/OpenSans-Semibold.woff2?v=1684447823",
               "apply_h1": true,
               "apply_h2": true,
               "apply_h3": true,
@@ -177,14 +177,6 @@
     "content_for_index": [
 
     ],
-    "blocks": {
-      "9901917232353999808": {
-        "type": "shopify:\/\/apps\/buddha-mega-menu-navigation\/blocks\/megamenu\/dbb4ce56-bf86-4830-9b3d-16efbef51c6f",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    },
     "color_schemes": {
       "background-1": {
         "settings": {
