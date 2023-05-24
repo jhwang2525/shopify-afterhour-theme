@@ -3404,8 +3404,7 @@ flex-wrap:wrap !important; justify-content: center;}
 .footer__blocks-wrapper .footer-block--menu{width: calc(50% - 0.25rem) !important;}
 
 .footer-block__details-content .list-menu__item--link {
-padding-top: 0.5rem !important;
-		padding-bottom: 0.5rem !important;}
+padding-top: 0.5rem; padding-bottom: 0.5rem;}
 
 .paragraph_newsletter{text-align:center;}
 
