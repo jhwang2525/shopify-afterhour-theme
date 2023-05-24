@@ -5,10 +5,9 @@ a.link.link--text.list-menu__item.list-menu__item--link {
   line-height: 20%;
 }
 .footer-block__details-content.rte p {
-  font-family: OpenSans-Semibold;
+  font-family: OpenSans;
     font-size: 20px !important;
   color: #black;
-  font-weight: lighter;
 }
 
 :root {
