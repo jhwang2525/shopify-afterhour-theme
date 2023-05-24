@@ -338,7 +338,7 @@
 .footer-block__details-content .list-menu__item--link,
 .copyright__content a {
   color: rgba(var(--color-foreground), 0.75);
-  line-height: 1 !important;
+  line-height: 0.2 !important;
     margin: 0 0 14px 0 !important;
 }
 
