@@ -3,6 +3,7 @@ a.link.link--text.list-menu__item.list-menu__item--link {
   color: black;
   font-weight: lighter;
   line-height: 5%;
+  font-family: OpenSans;
 }
 .footer-block__details-content.rte p {
   font-family: OpenSans;
@@ -27,6 +28,8 @@ a.link.link--text.list-menu__item.list-menu__item--link {
     font-family: HelveticaNeueHv;
     src: url({{ "HelveticaNeueHv.woff2" | asset_url }}) format(woff2);
 }
+
+
 
 .product-card-wrapper .card,
 .contains-card--product {
