@@ -3343,6 +3343,7 @@ details-disclosure > details {
 
 .footer-block__details-content {
     margin-bottom: 2rem;
+  
 }
 
 .header__inline-menu .link { font-size: 1.8rem !important;}
@@ -3409,5 +3410,8 @@ padding-top: 0.5rem; padding-bottom: 0.5rem;}
 
 }
 
-
+.footer-block__details-content list{
+    line-height: 1 !important;
+    margin: 0 0 14px 0 !important;
+}
  
