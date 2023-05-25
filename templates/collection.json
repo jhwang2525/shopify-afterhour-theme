@@ -16,8 +16,34 @@
         "show_text_below": true
       }
     },
+    "d8085a9c-1758-4d1d-b05a-6e0db9f42422": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16108529942682__d8085a9c-1758-4d1d-b05a-6e0db9f42422-16850554935f5eeafe-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The statement dress is our staple. An absolute must-have for every wardrobe, just be ready to answer 'where is that from?' a million times",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--16108529942682__d8085a9c-1758-4d1d-b05a-6e0db9f42422-16850554935f5eeafe-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+
+      ],
       "settings": {
         "show_collection_description": true,
         "show_collection_image": false,
@@ -46,6 +72,7 @@
   },
   "order": [
     "4da47cb6-38c7-404c-82f4-f2158f5181b4",
+    "d8085a9c-1758-4d1d-b05a-6e0db9f42422",
     "banner",
     "product-grid"
   ]
