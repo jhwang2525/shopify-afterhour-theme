@@ -1,16 +1,22 @@
+ul.menu-drawer__menu.has-submenu.list-menu > li:nth-child(9) > a {
+  color: red !important;
+}
+
+
+
 a.link.link--text.list-menu__item.list-menu__item--link {
     font-size: 12px !important;
   color: black;
   font-weight: 400;
-  line-height: 1.3 !important;
+  line-height: 0.6 !important;
   font-family: sans-serif;
-  letter-spacing: -0.7px;
-  
+  letter-spacing: -0.6px;
+  display: block;
 }
 .footer-block__details-content.rte p {
   font-family: OpenSans;
     font-size: 12px !important;
-  color: #black;
+  color: black;
 }
 
 :root {
@@ -19,18 +25,6 @@ a.link.link--text.list-menu__item.list-menu__item--link {
   --alpha-link: 0.85;
   --alpha-badge-border: 0.1;
 }
-
-
-@font-face {
-    font-family: OpenSans-Semibold;
-    src: url({{ "OpenSans-Semibold.woff2" | asset_url }}) format(woff2);
-}
-
-@font-face {
-    font-family: HelveticaNeueHv;
-    src: url({{ "HelveticaNeueHv.woff2" | asset_url }}) format(woff2);
-}
-
 
 
 .product-card-wrapper .card,
@@ -3373,6 +3367,7 @@ margin-top:0 !important;
 @media (min-width:991px){
 .footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet {
 flex-basis: 80% !important;
+padding-left: 0 !important;
 }
 .footer-block.grid__item {
 padding-left: 0 !important;
