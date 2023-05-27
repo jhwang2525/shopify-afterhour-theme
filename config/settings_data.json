@@ -1,15 +1,16 @@
 {
   "current": {
     "logo": "shopify:\/\/shop_images\/AFTERHOUR_NEW_LOGO1.jpg",
-    "logo_width": 110,
+    "logo_width": 160,
     "type_header_font": "sans-serif",
     "heading_scale": 100,
     "type_body_font": "helvetica_n4",
     "body_scale": 100,
-    "page_width": 1200,
+    "page_width": 1400,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 8,
     "spacing_grid_vertical": 8,
+    "animations_reveal_on_scroll": true,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
@@ -39,7 +40,7 @@
     "card_border_opacity": 10,
     "card_corner_radius": 0,
     "card_shadow_opacity": 0,
-    "card_shadow_horizontal_offset": 0,
+    "card_shadow_horizontal_offset": 4,
     "card_shadow_vertical_offset": 4,
     "card_shadow_blur": 5,
     "collection_card_style": "standard",
@@ -76,7 +77,7 @@
     "media_radius": 0,
     "media_shadow_opacity": 0,
     "media_shadow_horizontal_offset": 0,
-    "media_shadow_vertical_offset": 4,
+    "media_shadow_vertical_offset": -2,
     "media_shadow_blur": 5,
     "popup_border_thickness": 1,
     "popup_border_opacity": 10,
@@ -95,8 +96,8 @@
     "badge_corner_radius": 40,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "inverse",
-    "social_facebook_link": "",
-    "social_instagram_link": "",
+    "social_facebook_link": "https:\/\/www.facebook.com\/people\/Afterhour\/100067212043303\/",
+    "social_instagram_link": "https:\/\/www.instagram.com\/afterhour\/",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
@@ -108,10 +109,18 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
-    "cart_type": "notification",
+    "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/AFTERHOUR_NEW_LOGO1.jpg",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_sidebar_background_color": "#ffffff",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#121212",
+    "checkout_button_color": "#121212",
+    "checkout_error_color": "#121212",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -124,19 +133,59 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "ezfy-custom-fonts": {
+        "type": "ezfy-custom-fonts",
+        "blocks": {
+          "82d2aab9-75aa-4185-8336-ffa8d1404942": {
+            "type": "image",
+            "settings": {
+              "name": "Open Sans",
+              "custom_font_weight": "none",
+              "custom_font_style": "none",
+              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0611\/9053\/7370\/files\/OpenSans-Semibold.woff2?v=1684447823",
+              "apply_h1": true,
+              "apply_h2": true,
+              "apply_h3": true,
+              "apply_h4": false,
+              "apply_h5": false,
+              "apply_h6": false,
+              "apply_span": true,
+              "apply_p": false,
+              "apply_custom": ""
+            }
+          },
+          "df25bb31-e7dc-475e-96e4-1c9647d2596c": {
+            "type": "image",
+            "settings": {
+              "name": "Helvetica Neue Hv",
+              "custom_font_weight": "none",
+              "custom_font_style": "none",
+              "custom_font_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0611\/9053\/7370\/files\/HelveticaNeueHv.woff2?v=1684447808",
+              "apply_h1": true,
+              "apply_h2": true,
+              "apply_h3": true,
+              "apply_h4": true,
+              "apply_h5": true,
+              "apply_h6": true,
+              "apply_span": true,
+              "apply_p": true,
+              "apply_custom": ""
+            }
+          }
+        },
+        "block_order": [
+          "82d2aab9-75aa-4185-8336-ffa8d1404942",
+          "df25bb31-e7dc-475e-96e4-1c9647d2596c"
+        ],
+        "settings": {
+          "enable": true
+        }
       }
     },
     "content_for_index": [
 
     ],
-    "blocks": {
-      "9901917232353999808": {
-        "type": "shopify:\/\/apps\/buddha-mega-menu-navigation\/blocks\/megamenu\/dbb4ce56-bf86-4830-9b3d-16efbef51c6f",
-        "disabled": false,
-        "settings": {
-        }
-      }
-    },
     "color_schemes": {
       "background-1": {
         "settings": {

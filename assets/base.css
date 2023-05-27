@@ -1,28 +1,35 @@
-@media screen and (min-width: 768px) {
-    .footer-block--newsletter {
-      width: 50%;
-      margin: 0 !important;
-      align-items: flex-start !important;
-    }
-    .footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet {
-      width: 50%;
-    }
-    .footer__content-top.page-width {
-      display: flex;
-      flex-wrap: wrap;
-    }
+ul.menu-drawer__menu.has-submenu.list-menu > li:nth-child(9) > a {
+  color: red !important;
 }
+
+.collection-hero__inner .collection-hero__text-wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  padding: 0;
+  margin: 0;
+  flex-basis: 100%;
+  }
+  .collection-hero__image-container {
+  flex: 1 0 100%!important;
+  margin: 0!important;
+  }
 
 a.link.link--text.list-menu__item.list-menu__item--link {
     font-size: 12px !important;
   color: black;
-  font-weight: lighter;
-  line-height: 20%;
+  font-weight: 400;
+  line-height: 0.6 !important;
+  font-family: sans-serif;
+  letter-spacing: -0.6px;
+  display: block;
 }
 .footer-block__details-content.rte p {
+  font-family: OpenSans;
     font-size: 12px !important;
-  color: #black;
-  font-weight: lighter;
+  color: black;
 }
 
 :root {
@@ -32,16 +39,6 @@ a.link.link--text.list-menu__item.list-menu__item--link {
   --alpha-badge-border: 0.1;
 }
 
-
-@font-face {
-    font-family: OpenSans-Semibold;
-    src: url({{ "OpenSans-Semibold.woff2" | asset_url }}) format(woff2);
-}
-
-@font-face {
-    font-family: HelveticaNeueHv;
-    src: url({{ "HelveticaNeueHv.woff2" | asset_url }}) format(woff2);
-}
 
 .product-card-wrapper .card,
 .contains-card--product {
@@ -310,9 +307,9 @@ h5,
   font-family: 'HelveticaNeueHv' , 'OpenSans-Semibold' !important;
   font-style: var(--font-heading-style);
   font-weight: var(--font-heading-weight);
-  letter-spacing: calc(var(--font-heading-scale) * 0.06rem);
+  letter-spacing: calc(var(--font-heading-scale) * 0.01rem);
   color: rgb(var(--color-foreground));
-  line-height: calc(1 + 0.3 / max(1, var(--font-heading-scale)));
+  line-height: calc(0.5 + 0.1 / max(1, var(--font-heading-scale)));
   word-break: break-word;
 }
 
@@ -3358,6 +3355,7 @@ details-disclosure > details {
 
 .footer-block__details-content {
     margin-bottom: 2rem;
+  
 }
 
 .header__inline-menu .link { font-size: 1.8rem !important;}
@@ -3368,4 +3366,76 @@ details-disclosure > details {
 
 .header-wrapper .list-menu li:nth-child(9) {
     color: #F18031 !important;
+}
+.footer__content-top.page-width {
+display: flex !important;
+}
+.footer-block--newsletter {
+display: block !important;
+}
+.footer-block--newsletter {
+margin-top:0 !important;
+}
+
+@media (min-width:991px){
+.footer__blocks-wrapper.grid.grid--1-col.grid--2-col.grid--4-col-tablet {
+flex-basis: 80% !important;
+padding-left: 0 !important;
+}
+.footer-block.grid__item {
+padding-left: 0 !important;
+}
+}
+
+/**************************************************************************/
+
+@media (min-width:992px){
+.footer__content-top .footer-block--newsletter .footer-block__newsletter form#ContactFooter
+{margin-left: 0 !important;}
+
+.footer__list-social .list-social__item:first-child a{padding-left:0;}
+
+}
+
+@media (max-width:991px){
+.footer__content-top.page-width {
+flex-wrap:wrap !important; justify-content: center;}
+
+.footer-block__newsletter .footer-block__heading{text-align:center;}
+
+.footer__list-social.list-social {justify-content: center !important;}
+
+
+}
+
+@media (max-width:749px){
+
+.footer-block.grid__item {margin: 0 !important;}
+
+.footer__content-top .footer__blocks-wrapper{display: flex !important; flex-wrap: wrap;}
+
+.footer__blocks-wrapper .footer-block--menu{width: calc(50% - 0.25rem) !important;}
+
+.footer-block__details-content .list-menu__item--link {
+padding-top: 0.5rem; padding-bottom: 0.5rem;}
+
+.paragraph_newsletter{text-align:center;}
+
+}
+
+*{
+  color:#000;
+}
+
+.full-unstyled-link {
+  text-decoration: none;
+  color: currentColor;
+  display: block;
+  text-transform: uppercase !important;
+}
+.mobile-facets__details.js-filter.medium-hide.large-up-hide {
+  display: block !important;
+}
+facet-filters-form.facets.small-hide {
+  display: none !important;
 }
