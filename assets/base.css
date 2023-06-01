@@ -3439,3 +3439,16 @@ padding-top: 0.5rem; padding-bottom: 0.5rem;}
 facet-filters-form.facets.small-hide {
   display: none !important;
 }
+@media screen and (min-width: 750px) {
+  .page-width {
+    max-width: 100% !important;
+  }
+  .product--small:not(.product--no-media) .product__media-wrapper {
+    max-width: 65% !important;
+    width: 65% !important;
+  }
+  .product--small:not(.product--no-media) .product__info-wrapper {
+    max-width: 35% !important;
+    width: 35% !important;
+  }
+}
