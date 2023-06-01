@@ -3439,9 +3439,3 @@ padding-top: 0.5rem; padding-bottom: 0.5rem;}
 facet-filters-form.facets.small-hide {
   display: none !important;
 }
-@media screen and (max-width: 999px){
-.product__media-item {
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-}
-}
