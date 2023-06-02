@@ -129,7 +129,7 @@ html.no-js .no-js-hidden {
 }
 
 .page-width {
-  max-width: var(--page-width);
+  max-width: 150rem;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
@@ -177,7 +177,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section slideshow-compo
   }
 
   .page-width--narrow {
-    max-width: 72.6rem;
+    max-width: 150rem;
     padding: 0;
   }
 
