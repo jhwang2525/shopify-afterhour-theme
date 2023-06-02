@@ -429,5 +429,11 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".product-section .wrapper,.template-product .wrapper {max-width: 1532px !important;}",
+      ".section-description .grid__item{flex: 0 0 100%;width: 100%;left: unset;}"
+    ]
   }
 }
