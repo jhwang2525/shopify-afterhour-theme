@@ -3448,4 +3448,13 @@ width: 100% !important;
 max-width: 100% !important;
 }
 }
-
+@media (max-width: 767px){
+.slider.slider--everywhere .slider__slide .banner__content {
+position: absolute;
+top: 0;
+bottom: 0;
+}
+.slider.slider--everywhere .slideshow__text.banner__box {
+background: rgb(255 255 255 / 50%);
+}
+}
