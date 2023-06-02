@@ -3444,8 +3444,8 @@ facet-filters-form.facets.small-hide {
 .product__media-item.grid__item {
 display: block;
   height: 81vh;
-width: 100% !important;
-max-width: 100% !important;
+width: 150% !important;
+max-width: 150% !important;
 }
 }
 
