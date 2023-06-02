@@ -143,6 +143,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section slideshow-compo
 .page-width-desktop {
   padding: 0;
   margin: 0 auto;
+  max-width: 160rem !important;
 }
 
 @media screen and (min-width: 750px) {
@@ -161,6 +162,7 @@ body:has(.section-header .drawer-menu) .announcement-bar-section slideshow-compo
 
   .page-width-desktop {
     padding: 0;
+    max-width: 160rem !important;
   }
 
   .page-width-tablet {
