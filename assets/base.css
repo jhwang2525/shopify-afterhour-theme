@@ -3448,4 +3448,6 @@ width: 100% !important;
 max-width: 100% !important;
 }
 }
-
+.page-width.page-width--narrow {
+    max-width: 150rem;
+}
