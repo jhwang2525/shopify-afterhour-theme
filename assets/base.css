@@ -3442,7 +3442,8 @@ facet-filters-form.facets.small-hide {
 
 @media screen and (min-width: 750px) {
 .product__media-item.grid__item {
-display:block;
+display: block;
+  height: 150px;
 width: 100% !important;
 max-width: 100% !important;
 }
