@@ -1,3 +1,15 @@
+<style>
+.additional-checkout-buttons {
+display: none;
+}
+</style>
+
+{% if additional_checkout_buttons %}
+<div class="additional-checkout-buttons">
+{{ content_for_additional_checkout_buttons }}
+</div>
+{% endif %}
+
 {{ 'component-cart.css' | asset_url | stylesheet_tag }}
 {{ 'component-cart-items.css' | asset_url | stylesheet_tag }}
 {{ 'component-totals.css' | asset_url | stylesheet_tag }}
