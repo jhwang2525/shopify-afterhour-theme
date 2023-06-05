@@ -1,3 +1,9 @@
+.additional_checkout_buttons{
+display:none !important;
+}
+
+ 
+
 .cart-notification-wrapper {
   position: relative;
 }
