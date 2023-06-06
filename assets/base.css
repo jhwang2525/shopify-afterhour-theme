@@ -3469,8 +3469,8 @@ max-width: 100% !important;
     }
 #Subscribe::before{
   content: 'Subcribe';
-  font-size: 8px;
-  background:
+  font-size: 10px;
+  background: #f8f8f8;
   text-transform: uppercase;
 }
 
