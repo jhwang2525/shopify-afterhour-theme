@@ -3475,9 +3475,7 @@ max-width: 100% !important;
 #Subscribe svg{
   display: none;
 }
-.footer-block__newsletter h2.footer-block__heading {
-    color: #73B7CC !important;
-}
+
 .field label.field__label, .customer .field label{
-  color: #73B7CC !important;
+  color: #000 !important;
 }
