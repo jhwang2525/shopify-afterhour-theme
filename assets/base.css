@@ -3457,7 +3457,6 @@ max-width: 100% !important;
 .newsletter-form__field-wrapper .field__input{
   width: 100%;
   background: #f8f8f8;
-  font-size: 10px;
   margin: 0 !important;
 }
 .newsletter-form__field-wrapper > .field{
@@ -3470,7 +3469,7 @@ max-width: 100% !important;
     }
 #Subscribe::before{
   content: 'Subcribe';
-  font-size: 10px;
+  font-size: 8px;
   background:
   text-transform: uppercase;
 }
