@@ -3452,11 +3452,11 @@ max-width: 100% !important;
 .newsletter-form__button{   
   position: absolute;
   width: 85px !important;
-  border: 1px solid #ffffff;
+  border: 1px solid #f8f8f8;
 }
 .newsletter-form__field-wrapper .field__input{
   width: 100%;
-  border: 1px solid #ffffff;
+  border: 1px solid #f8f8f8;
   margin: 0 !important;
 }
 .newsletter-form__field-wrapper > .field{
