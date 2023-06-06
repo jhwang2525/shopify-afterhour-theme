@@ -3446,6 +3446,33 @@ display: block;
   height: 81vh;
 width: 100% !important;
 max-width: 100% !important;
+  
 }
+}
+.newsletter-form__button{   
+  position: absolute;
+  width: 85px !important;
+  border: 1px solid #ffffff;
+}
+.newsletter-form__field-wrapper .field__input{
+  width: 100%;
+  border: 1px solid #ffffff;
+  margin: 0 !important;
+}
+.newsletter-form__field-wrapper > .field{
+    position: relative;
+    padding-right: 90px;
+}
+     .newsletter-form__field-wrapper > .field::after,
+    .newsletter-form__field-wrapper > .field::before{
+        display: none !important;
+    }
+#Subscribe::before{
+  content: 'Subcribe';
+  font-size: 14px;
+  text-transform: uppercase;
+}
+#Subscribe svg{
+  display: none;
 }
 
