@@ -1,0 +1,60 @@
+<style>
+  .dgCartUpsell { text-align:center; margin:25px auto; max-width:1170px; }
+  .dgCartUpsellCont { margin:0 auto; }
+  .dgCartUpsellInner {  display:inline-flex; margin:0 auto; border:1px solid #f0f0f0; }
+  .dgCartUpsellForm {  max-width:300px; padding:10px 15px; margin:10px; }
+  .dgCartUpsellForm * { display:block; clear:both; width:100%; margin-bottom:15px; }
+  .dgCartUpsell .dci-title { font-size: 16px; line-height: 21px; min-height: 45px; }
+  .dgCartUpsellQty { display:none !important; }
+  .dgCartUpsell input[type=number] { float:none; display:block; }
+  .dgCartUpsell .btn-primary, .dgCartUpsell .btn-primary:hover { }
+</style>
+
+{% assign upsellCollection = "upsells" %}
+{% assign upsellLimit = "4" -%}
+{% assign upsellTitle = "You should also take a look at this!" %}
+{% assign upsellAtc = "Add to cart" %}
+
+
+<div class="dgCartUpsell">
+
+  <h2>{{ upsellTitle }}</h2>
+
+  <div class="dgCartUpsellCont">
+    {% for collection in collections  %}
+    {% if collection.handle == upsellCollection %}
+
+    {% for product in collection.products limit:upsellLimit %}
+
+    <div class="dgCartUpsellInner">
+
+      <form action="/cart/add" method="post" class="dgCartUpsellForm">
+        <img class="dci-image" src="{{ product | img_url: '600x600', scale: 2 }}" alt="{{ product.title | escape }}" >
+        <strong class="dci-title">{{ product.title }}</strong> 
+
+        <select name="id" class="dci-product-variants" >
+          {% for variant in product.variants %}
+          {% if variant.available %}    
+          <option {% if variant == product.selected_or_first_available_variant %} selected="selected" {% endif %} data-sku="{{ variant.sku }}" value="{{ variant.id }}">
+            {% if variant.title != "Default Title" %}{{ variant.title }} - {% endif %}
+            {{ variant.price | money_with_currency }}            
+          </option>
+          {% else %}
+          <option disabled="disabled">
+            {{ variant.title }} - {{ 'products.product.sold_out' | t }}
+          </option>
+          {% endif %}
+          {% endfor %}
+        </select> 
+        <div class="dgCartUpsellQty">
+          <label for="quantity-{{forloop.index}}">Quantity</label>
+          <input type="number" id="quantity-{{forloop.index}}" name="quantity-{{forloop.index}}" value="1" min="1" class="quantity-selector"> 
+        </div>
+        <button type="submit" name="add" class="btn btn-primary">{{ upsellAtc }}</button>
+      </form>
+    </div>
+    {% endfor %}
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>
