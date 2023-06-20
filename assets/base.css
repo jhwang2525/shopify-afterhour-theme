@@ -3473,3 +3473,9 @@ max-width: 100% !important;
   font-size:12px;
 }
 
+.product-grid.negative-margin--small {
+    margin-left: 0px;
+}
+.product-grid .grid__item {
+    padding-left: 0px;
+}
