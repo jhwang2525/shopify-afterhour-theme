@@ -1594,6 +1594,3 @@ a.product__text {
     border: none;
   }
 }
-[id^="MainProduct-template"] {
-    --page-width: 1600px !important;
-}
