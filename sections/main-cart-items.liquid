@@ -7,6 +7,25 @@
 {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
 {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
 
+{% if collection_handle == 'frequently-bought-together' %}
+  <!-- Upsell content here -->
+{% else %}
+  <!-- Display "Frequently Bought Together" products as upsell -->
+  <div class="upsell-products">
+    <h3>Frequently Bought Together:</h3>
+    {% for product in collections['frequently-bought-together'].products %}
+      <!-- Display each product from the "Frequently Bought Together" collection -->
+      <div class="upsell-product">
+        <a href="{{ product.url }}" title="{{ product.title }}">
+          <img src="{{ product.featured_image.src }}" alt="{{ product.title }}">
+          <h4>{{ product.title }}</h4>
+          <p>{{ product.price | money }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+{% endif %}
+
 {%- style -%}
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
