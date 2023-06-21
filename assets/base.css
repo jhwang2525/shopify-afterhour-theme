@@ -3482,7 +3482,7 @@ max-width: 100% !important;
     width: 65% !important;
   }
   .product--small:not(.product--no-media) .product__info-wrapper {
-    max-width: 35% !important;
-    width: 35% !important;
+    max-width: 20% !important;
+    width: 20% !important;
   }
 }
