@@ -54,19 +54,19 @@
             "page": ""
           }
         },
-        "collapsible-row-1": {
+        "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "DELIVERY",
+            "heading": "RETURNS",
             "icon": "none",
             "content": "",
             "page": ""
           }
         },
-        "collapsible-row-2": {
+        "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "RETURNS",
+            "heading": "DELIVERY",
             "icon": "none",
             "content": "",
             "page": ""
@@ -82,8 +82,8 @@
         "buy_buttons",
         "description",
         "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2"
+        "collapsible-row-2",
+        "collapsible-row-1"
       ],
       "settings": {
         "enable_sticky_info": true,
