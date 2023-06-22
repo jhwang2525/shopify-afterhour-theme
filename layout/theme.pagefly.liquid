@@ -54,6 +54,7 @@ font-family: "HelveticaNeueHv";
       assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
     %}
 
+    
     {% style %}
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
@@ -241,6 +242,17 @@ font-family: "HelveticaNeueHv";
         font-weight: var(--font-body-weight);
       }
 
+    @font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url(https://cdn.shopify.com/s/files/1/0611/9053/7370/files/OpenSans-Semibold.woff2?v=1684447823) format("woff2");
+}
+
+    @font-face {
+    font-family: 'HelveticaNeueHv';
+    src: url(https://cdn.shopify.com/s/files/1/0611/9053/7370/files/HelveticaNeueHv.woff2?v=1684447808) format("woff2");
+}
+ 
+      
       @media screen and (min-width: 750px) {
         body {
           font-size: 1.6rem;
