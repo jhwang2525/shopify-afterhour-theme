@@ -48,8 +48,8 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
+            "heading": "DESCRIPTION",
+            "icon": "none",
             "content": "",
             "page": ""
           }
@@ -57,8 +57,8 @@
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
+            "heading": "DELIVERY",
+            "icon": "none",
             "content": "",
             "page": ""
           }
@@ -66,17 +66,8 @@
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
+            "heading": "RETURNS",
+            "icon": "none",
             "content": "",
             "page": ""
           }
@@ -92,8 +83,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3"
+        "collapsible-row-2"
       ],
       "settings": {
         "enable_sticky_info": true,
