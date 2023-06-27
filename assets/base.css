@@ -3505,9 +3505,6 @@ max-width: 100% !important;
     font-weight: 800;
 }
 
-.shopify-payment-button__button--unbranded{
-    display: none !important;
-}
 
   product-form [type="submit"] {
     color: #ffffff !important;
