@@ -3508,3 +3508,8 @@ max-width: 100% !important;
 .shopify-payment-button__button--unbranded{
     display: none !important;
 }
+
+.product-form__submit {
+    background: #000000 !important;
+    color: #ffffff !important;
+}
