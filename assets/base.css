@@ -3509,8 +3509,10 @@ max-width: 100% !important;
     display: none !important;
 }
 
-  product-form [type="submit"] {
-    color: #ffffff;
-    background-color: #000000;
-    font-weight: bolder !important;
-  }
+a#cart-notification-button {
+
+    background-color: 000000 !important;
+
+    color: white !important;
+
+}
