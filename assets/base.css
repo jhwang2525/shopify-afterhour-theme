@@ -3487,6 +3487,9 @@ max-width: 100% !important;
   }
 }
 
-h1.product__title {
+.full-unstyled-link {
+    text-decoration: none;
+    color: currentColor;
+    display: block;
     text-transform: uppercase !important;
 }
