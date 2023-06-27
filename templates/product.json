@@ -50,7 +50,7 @@
           "settings": {
             "heading": "DESCRIPTION",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.desert_camo_printed_cargo_pant | metafield_tag }}<\/p>",
+            "content": "",
             "page": ""
           }
         },
