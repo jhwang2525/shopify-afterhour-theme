@@ -3493,3 +3493,5 @@ max-width: 100% !important;
     display: block;
     text-transform: uppercase !important;
 }
+
+ a.product-title {text-transform: uppercase !important;}
