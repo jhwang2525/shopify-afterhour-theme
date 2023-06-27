@@ -3486,3 +3486,7 @@ max-width: 100% !important;
     width: 50% !important;
   }
 }
+
+h1.product__title {
+    text-transform: uppercase !important;
+}
