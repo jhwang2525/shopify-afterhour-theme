@@ -3498,4 +3498,5 @@ max-width: 100% !important;
 
 .product__title {
     text-transform: uppercase !important;
+    font-weight: bold;
 }
