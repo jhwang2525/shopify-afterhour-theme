@@ -112,7 +112,7 @@
     "cart_type": "drawer",
     "show_vendor": false,
     "show_cart_note": true,
-    "cart_drawer_collection": "",
+    "cart_drawer_collection": "new-arrivals",
     "checkout_logo_image": "shopify:\/\/shop_images\/AFTERHOUR_NEW_LOGO1.jpg",
     "checkout_logo_position": "center",
     "checkout_logo_size": "large",
