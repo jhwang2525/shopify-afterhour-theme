@@ -3509,12 +3509,8 @@ max-width: 100% !important;
     display: none !important;
 }
 
-.button--secondary {
-
-    background: #000000 !important;
-
+  product-form [type="submit"] {
     color: #FFFFFF !important;
-
-    border-color: #FFFFFF;
-
-}
+    background-color: #58b42d !important;
+    font-weight: bolder !important;
+  }
