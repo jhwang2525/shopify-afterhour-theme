@@ -23,11 +23,11 @@ a.link.link--text.list-menu__item.list-menu__item--link {
   font-weight: 400;
   line-height: 0.6 !important;
   font-family: sans-serif;
-  letter-spacing: -2px;
+  letter-spacing: -0.6px;
   display: block;
 }
 .footer-block__details-content.rte p {
-  font-family: Helvetica;
+  font-family: OpenSans-Semibold;
     font-size: 12px !important;
   color: black;
 }
