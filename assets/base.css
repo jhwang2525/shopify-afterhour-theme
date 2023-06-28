@@ -3520,9 +3520,9 @@ a#cart-notification-button {
 .newsletter-form {
   margin: 0 auto;
 /*change the number bel;ow to the size you want*/
-  max-width: 100%!important;
+  max-width: 150%!important;
 }
 .newsletter__wrapper .newsletter-form__field-wrapper {
-  max-width: 100%!important;
+  max-width: 150%!important;
 }
 }
