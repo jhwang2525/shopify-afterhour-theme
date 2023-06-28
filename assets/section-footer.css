@@ -149,6 +149,8 @@
   text-align: left;
   margin-top: 0;
   letter-spacing: -1.6px;
+  line-height: 20px;
+  font-size: 1em;
   font-size: calc(var(--font-heading-scale) * 1.6rem);
 }
 
