@@ -158,6 +158,8 @@
   .footer-block__heading {
     font-size: calc(var(--font-heading-scale) * 1.8rem);
     letter-spacing: -1.6px;
+      line-height: 20px;
+  font-size: 1em;
     text-align: left;
   }
 }
