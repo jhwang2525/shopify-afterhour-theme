@@ -31,13 +31,13 @@
   }
 
   .rich-text__blocks {
-    max-width: 80rem;
+    max-width: 100rem;
   }
 }
 
 @media screen and (min-width: 990px) {
   .rich-text__blocks {
-    max-width: 90rem;
+    max-width: 78rem;
   }
 }
 
