@@ -21,6 +21,7 @@
 
 .newsletter-form__field-wrapper .field__input {
   padding-right: 5rem;
+  max-width: 100%!important;
 }
 
 .newsletter-form__field-wrapper .field {
