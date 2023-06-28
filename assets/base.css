@@ -3516,13 +3516,3 @@ a#cart-notification-button {
     color: black !important;
 
 }
-  @media screen and (min-width: 750px){
-.newsletter-form {
-  margin: 0 auto;
-/*change the number bel;ow to the size you want*/
-  max-width: 150%!important;
-}
-.newsletter__wrapper .newsletter-form__field-wrapper {
-  max-width: 150%!important;
-}
-}
