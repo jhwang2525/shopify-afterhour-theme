@@ -3529,7 +3529,7 @@ a#cart-notification-button {
 }
 }
 
-.Product .Product__InfoWrapper .Product__Info {
+.Product{
     width: 100% !important;
     padding-right: 50px;
     padding-left: 50px;
