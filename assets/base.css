@@ -3528,3 +3528,10 @@ a#cart-notification-button {
   max-width: 100%!important;
 }
 }
+
+.Product .Product__InfoWrapper .Product__Info {
+    width: 100% !important;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 85px !important;
+}
