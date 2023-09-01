@@ -3,8 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/women1.png",
-        "image_2": "shopify:\/\/shop_images\/men.png",
+        "image": "shopify:\/\/shop_images\/afterhour-banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
