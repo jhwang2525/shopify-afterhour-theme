@@ -1,7 +1,16 @@
 {
   "sections": {
     "main": {
-      "type": "main-account"
+      "type": "main-account",
+      "custom_css": [
+        "h1 {font-family: \"Helvetica Neue Hv\" !important; line-height: 80px;}",
+        "h3 {font-size: 12px; line-height: 30px;}",
+        "p {font-family: \"Open Sans\" !important; color: #4f4f4f; letter-spacing: -1px; font-size: 1.4rem;}"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
