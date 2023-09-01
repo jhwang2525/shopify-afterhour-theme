@@ -164,7 +164,7 @@
             {%- when 'description' -%}
               {%- if product.description != blank -%}
                 <div class="product__description rte quick-add-hidden" {{ block.shopify_attributes }}>
-                  {{ product.description }}
+                  {{ product.description | replace: '<img src=', '<img loading="lazy" src=' }}
                 </div>
               {%- endif -%}
             {%- when 'sku' -%}
@@ -567,6 +567,7 @@
       ]
     }
   </script>
+                          
 </section>
 
 {% schema %}
