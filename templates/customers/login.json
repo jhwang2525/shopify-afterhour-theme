@@ -1,7 +1,14 @@
 {
   "sections": {
     "main": {
-      "type": "main-login"
+      "type": "main-login",
+      "custom_css": [
+        "@media screen and (max-width: 768px) {form {width: 80%; margin-left: 55px; }}"
+      ],
+      "settings": {
+        "padding_top": 88,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
