@@ -102,6 +102,7 @@
                           </li>
                         {%- endfor -%}
                       </ul>
+                      
                     {%- endif -%}
                   {%- when 'brand_information' -%}
                     <div class="footer-block__brand-info">
@@ -132,7 +133,9 @@
                       {%- endif -%}
                       {%- if block.settings.show_social and has_social_icons -%}
                         {%- render 'social-icons' -%}
+                        
                       {%- endif -%}
+                  
                     </div>
                   {%- when 'image' -%}
                     <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
@@ -341,7 +344,8 @@
           <div class="footer__payment">
             <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
             <ul class="list list-payment" role="list">
-              {%- for type in shop.enabled_payment_types -%}
+              {% assign enabled_payment_types = 'visa,master,american_express,paypal,apple_pay,google_pay' | remove: ' ' | split: ',' %}
+{% for type in enabled_payment_types %}
                 <li class="list-payment__item">
                   {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
                 </li>
@@ -437,7 +441,7 @@
           "label": "t:sections.footer.blocks.text.settings.heading.label"
         },
         {
-          "type": "richtext",
+          "type": "textarea",
           "id": "subtext",
           "default": "<p>Share contact information, store details, and brand content with your customers.</p>",
           "label": "t:sections.footer.blocks.text.settings.subtext.label"
@@ -507,7 +511,7 @@
     {
       "type": "inline_richtext",
       "id": "newsletter_heading",
-      "default": "Subscribe to our emails",
+      "default": "STAY POSTED",
       "label": "t:sections.footer.settings.newsletter_heading.label"
     },
     {
