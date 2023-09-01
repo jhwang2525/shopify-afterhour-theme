@@ -1,7 +1,35 @@
 {
   "sections": {
+    "2fa0ca6b-b2c5-47d2-940b-b3d0ead82f84": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "@media screen and (max-width: 749px) {#openthinkingvideo:first-child {display: none !important; }}"
+      ],
+      "settings": {
+        "custom_liquid": "<video autoplay=\"autoplay\" loop=\"loop\" muted defaultMuted playsinline  oncontextmenu=\"return false;\"  preload=\"auto\" id=\"openthinkingvideo\"><source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/c9055f475788497aaca422559f01eb49.mp4\" type=\"video\/mp4\"><\/video><style>#openthinkingvideo { display:block; max-width: 100%; width: 100%; padding: 0; margin: 0;}<\/style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "536aa87b-198f-49b1-8c19-c2fa0455a9e4": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "@media screen and (min-width: 769px) {#openthinkingvideo {display: none !important; }}"
+      ],
+      "settings": {
+        "custom_liquid": "<video autoplay=\"autoplay\" loop=\"loop\" muted defaultMuted playsinline  oncontextmenu=\"return false;\"  preload=\"auto\" id=\"openthinkingvideo\"><source src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a74d9826600b427fbf7128dc09402ce0.mp4\" type=\"video\/mp4\"><\/video><style>#openthinkingvideo { display:block; max-width: 100%; width: 100%; padding: 0; margin: 0;}<\/style>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
+      "custom_css": [
+
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/afterhour-banner.jpg",
         "image_overlay_opacity": 0,
@@ -13,11 +41,13 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": true
       }
     }
   },
   "order": [
+    "2fa0ca6b-b2c5-47d2-940b-b3d0ead82f84",
+    "536aa87b-198f-49b1-8c19-c2fa0455a9e4",
     "image_banner"
   ]
 }
