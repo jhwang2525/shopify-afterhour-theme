@@ -1,9 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <style> 
-footer * {
-font-family: "HelveticaNeueHv";
-}
 
 </style>
   <head>{% render 'pagefly-head' %}
@@ -18,7 +15,39 @@ font-family: "HelveticaNeueHv";
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
 
-    {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
+    {%- unless settings.type_header_font.system? and settings.type_body_font.syst<style>
+#shopify-section-header.sticky {
+background:#ffffff !important;
+position: fixed !important;
+top: 0 !important;
+width: 100%;
+z-index:99;
+-webkit-transition: all .6s ease;
+-moz-transition: all .6s ease;
+-o-transition: all .6s ease;
+transition: all .6s ease;
+}
+#shopify-section-header{
+-webkit-transition: all .6s ease;
+-moz-transition: all .6s ease;
+-o-transition: all .6s ease;
+transition: all .6s ease;
+}
+</style>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("shopify-section-header");
+var sticky = header.offsetTop;
+
+function myFunction() {
+if (window.pageYOffset > sticky) {
+header.classList.add("sticky");
+} else {
+header.classList.remove("sticky");
+}
+}
+</script>em? -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
 
@@ -280,6 +309,22 @@ font-family: "HelveticaNeueHv";
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+    <style>
+html,body{
+overflow: visible !important;
+}
+</style>
+  <style>
+@media(max-width: 767px){
+ .rich-text__wrapper {
+   width: 100% !important;
+ }
+ .isolate .rich-text__blocks {
+   max-width: 100% !important;
+ }
+}
+</style>
+
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
@@ -334,7 +379,9 @@ font-family: "HelveticaNeueHv";
         pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       };
+      
     </script>
+    
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
@@ -353,6 +400,112 @@ font-family: "HelveticaNeueHv";
 }
   
 </style>
+<style>
+@media screen and (max-width: 576px) {
+.product-media-container.constrain-height .media{
+padding-top: 600px!important;
+}
+.product-media-container.constrain-height.media-fit-contain{
+min-width:100%!important;
+}
+}
 
+@media screen and (min-width: 577px) and (max-width: 767){
+
+.product-media-container.constrain-height .media{
+padding-top: 1000px!important;
+}
+
+.product-media-container.constrain-height.media-fit-contain{
+min-width:100%!important;
+}
+
+}
+</style>
+<style>
+	.product__info-wrapper .product-form__input input[type='radio']:checked + label {
+		background: transparent !important;
+		color: #000 !important;
+		text-decoration: underline;
+        font-weight: 700;
+        border: 0.1rem solid #fff
+	}
+	.product__info-wrapper .product-form__input input[type='radio'] + label {
+		background: fff;
+		color: #000 !important;
+	}
+</style>
+<style>
+@media (min-width: 749px){
+    .product.grid{
+    justify-content: center !important;
+}
+
+}
+
+
+</style>
+    <style>
+{%if template contains 'product'%}
+.header-wrapper.gradient{
+background:transparent !important;
+}
+.scrolled-past-header .header-wrapper.gradient{
+background:#ffffff!important;
+}
+#MainContent{
+margin-top:-60px!important;
+}
+{%endif%}
+</style>
+
+    <style>
+:root {
+  --custom-button-color: #000000;
+  --custom-button-text: #ffffff;
+}
+
+.button,
+.button:active,
+.button:focus{
+    background: var(--custom-button-color) !important;
+    color: #ffffff;
+    border-color: var(--custom-button-color)  !important;
+      box-shadow: 0 0 0 .1rem var(--custom-button-color)  !important;
+}
+
+
+.button:hover{
+    box-shadow: 0 0 0 .2rem var(--custom-button-color)  !important;
+}
+
+</style>
+<style>
+accordion__title inline-richtext h4{
+          text-align: center;
+      }
+   </style>
+      <style>
+    .menu-drawer__menu li .list-menu__item {
+        justify-content: flex-start;
+        padding-left: 2.5rem;
+    }
+  </style>
+    <style>
+a.button.button--tertiary {
+    color: white !important;
+}
+</style>
+    <style>
+	@media(max-width: 425px) {
+		#CartDrawer .drawer__inner {
+			width: 100vw !important;
+			max-width: 90% !important;
+		}
+	 }
+	
+</style>
+
+    
   </body>
 </html>
