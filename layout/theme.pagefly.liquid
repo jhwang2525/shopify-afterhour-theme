@@ -5,9 +5,6 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <style> 
-footer * {
-font-family: "HelveticaNeueHv";
-}
 
 </style>
   <head>{% render 'pagefly-head' %}
@@ -22,7 +19,39 @@ font-family: "HelveticaNeueHv";
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
 
-    {%- unless settings.type_header_font.system? and settings.type_body_font.system? -%}
+    {%- unless settings.type_header_font.system? and settings.type_body_font.syst<style>
+#shopify-section-header.sticky {
+background:#ffffff !important;
+position: fixed !important;
+top: 0 !important;
+width: 100%;
+z-index:99;
+-webkit-transition: all .6s ease;
+-moz-transition: all .6s ease;
+-o-transition: all .6s ease;
+transition: all .6s ease;
+}
+#shopify-section-header{
+-webkit-transition: all .6s ease;
+-moz-transition: all .6s ease;
+-o-transition: all .6s ease;
+transition: all .6s ease;
+}
+</style>
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("shopify-section-header");
+var sticky = header.offsetTop;
+
+function myFunction() {
+if (window.pageYOffset > sticky) {
+header.classList.add("sticky");
+} else {
+header.classList.remove("sticky");
+}
+}
+</script>em? -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
 
@@ -54,6 +83,7 @@ font-family: "HelveticaNeueHv";
       assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
     %}
 
+    
     {% style %}
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
@@ -241,6 +271,17 @@ font-family: "HelveticaNeueHv";
         font-weight: var(--font-body-weight);
       }
 
+    @font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url(https://cdn.shopify.com/s/files/1/0611/9053/7370/files/OpenSans-Semibold.woff2?v=1684447823) format("woff2");
+}
+
+    @font-face {
+    font-family: 'HelveticaNeueHv';
+    src: url(https://cdn.shopify.com/s/files/1/0611/9053/7370/files/HelveticaNeueHv.woff2?v=1684447808) format("woff2");
+}
+ 
+      
       @media screen and (min-width: 750px) {
         body {
           font-size: 1.6rem;
@@ -272,6 +313,7 @@ font-family: "HelveticaNeueHv";
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+  
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}"><div class="pagefly-container">{{ content_for_layout }}</div></body>
