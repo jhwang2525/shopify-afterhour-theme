@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "FREE 11SHIPPING TO UNITED STATES ON ALL ORDERS ABOVE $150",
+            "text": "FREE SHIPPING OVER +$75",
             "link": ""
           }
         }
@@ -16,8 +16,12 @@
       "block_order": [
         "announcement-bar-0"
       ],
+      "disabled": true,
+      "custom_css": [
+        "span {color: black;}"
+      ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "background-1",
         "show_line_separator": true,
         "auto_rotate": false,
         "change_slides_speed": 5
@@ -25,19 +29,22 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "drawer",
         "sticky_header_type": "always",
-        "show_line_separator": true,
+        "show_line_separator": false,
         "color_scheme": "background-1",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "mobile_logo_position": "left",
-        "margin_bottom": 12,
-        "padding_top": 8,
-        "padding_bottom": 8
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
