@@ -1,5 +1,6 @@
 .product {
   margin: 0;
+  line-height: 18px;
 }
 
 .product.grid {
