@@ -3,7 +3,10 @@
   <style> 
 
 </style>
-  <head>{% render 'pagefly-head' %}
+  <head>
+	<!-- Added by AVADA SEO Suite -->
+	{% include 'avada-seo' %}
+	<!-- /Added by AVADA SEO Suite -->{% render 'pagefly-head' %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -506,18 +509,6 @@ a.button.button--tertiary {
 	
 </style>
 
-    <style>
-{%if template contains 'collection'%}
-.header-wrapper.gradient{
-background:transparent !important;
-}
-.scrolled-past-header .header-wrapper.gradient{
-background:#ffffff!important;
-}
-#MainContent{
-margin-top:-96px!important;
-}
-{%endif%}
-</style>
+    
   </body>
 </html>
