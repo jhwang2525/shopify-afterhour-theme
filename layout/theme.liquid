@@ -506,6 +506,18 @@ a.button.button--tertiary {
 	
 </style>
 
-    
+    <style>
+{%if template contains 'collection'%}
+.header-wrapper.gradient{
+background:transparent !important;
+}
+.scrolled-past-header .header-wrapper.gradient{
+background:#ffffff!important;
+}
+#MainContent{
+margin-top:-96px!important;
+}
+{%endif%}
+</style>
   </body>
 </html>
