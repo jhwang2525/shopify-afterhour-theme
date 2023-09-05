@@ -1418,9 +1418,6 @@ a.product__text {
   padding-top: var(--ratio-percent);
 }
 
-.product-media-container.constrain-height .media {
-  padding-top: min(var(--constrained-height), var(--ratio-percent));
-}
 
 @media screen and (max-width: 749px) {
   .product-media-container.media-fit-cover {
