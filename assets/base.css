@@ -287,7 +287,6 @@ body:has(.section-header .drawer-menu) .announcement-bar-section slideshow-compo
 .text-body {
   font-size: 1.5rem;
   letter-spacing: 0.05rem;
-  line-height: calc(0.5 + 0.4 / var(--font-body-scale));
   font-family: var(--font-body-family);
   font-style: var(--font-body-style);
   font-weight: var(--font-body-weight);
