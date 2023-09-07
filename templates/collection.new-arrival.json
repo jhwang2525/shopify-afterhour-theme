@@ -1,0 +1,76 @@
+{
+  "sections": {
+    "4da47cb6-38c7-404c-82f4-f2158f5181b4": {
+      "type": "image-banner",
+      "custom_css": [
+        "@media screen and (max-width: 768px) {.banner__media {margin-top: 45px; }}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/12.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "e8eb136a-3c8d-4156-b5ab-1aeee0a5db4e": {
+      "type": "custom-liquid",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "custom_liquid": "<style>\n.breadcrumbs {\nmargin: 2 0 2em;\nborder-top:1px solid;\n}\n\n.breadcrumbs__list {\nlist-style-type: none;\nmargin: -20px;\npadding: 1;\nfont-weight: bold;\nfont-size: 10px\n}\n\n.breadcrumbs__item {\ndisplay: inline-block;\n}\n\n.breadcrumbs__item:not(:last-child):after {\nborder-style: solid;\nborder-width: .10em .10em 0 0;\ncontent: '';\ndisplay: inline-block;\nheight: .20em;\nmargin: 0 .30em;\nposition: relative;\ntransform: rotate(45deg);\nvertical-align: middle;\nwidth: .20em;\n}\n\n\n.breadcrumbs__link[aria-current=\"page\"] {\ncolor: inherit;\nfont-weight: normal;\ntext-decoration: none;\n}\n\n.breadcrumbs__link:hover,\n.breadcrumbs__link:focus {\ntext-decoration: underline;\n}\n.breadcrumbs__link {\ncolor: #476154;\ntext-decoration: none;\n}\n\n<\/style>\n\n{%- unless template == 'index' or template == 'cart' or template == 'list-collections' or template == '404' -%}\n{%- assign t = template | split: '.' | first -%}\n\n<nav class=\"breadcrumbs\" role=\"navigation\" aria-label=\"breadcrumbs\">\n<ol class=\"breadcrumbs__list\">\n<li class=\"breadcrumbs__item\">\n<a class=\"breadcrumbs__link\" href=\"\/\">Home<\/a>\n<\/li>\n<\/li>\n{%- case t -%}\n{%- when 'page' -%}\n<li class=\"breadcrumbs__item\">\n<a class=\"breadcrumbs__link\" href=\"{{ page.url }}\" aria-current=\"page\">{{ page.title }}<\/a>\n<\/li>\n{%- when 'product' -%}\n{%- if collection.url -%}\n<li class=\"breadcrumbs__item\">\n{{ collection.title | link_to: collection.url }}\n<\/li>\n{%- endif -%}\n<li class=\"breadcrumbs__item\">\n<a class=\"breadcrumbs__link\" href=\"{{ product.url }}\" aria-current=\"page\">{{ product.title }}<\/a>\n<\/li>\n{%- when 'collection' and collection.handle -%}\n{%- if current_tags -%}\n<li class=\"breadcrumbs__item\">\n{{ collection.title | link_to: collection.url }}\n<\/li>\n<li class=\"breadcrumbs__item\">\n{%- capture tag_url -%}{{ collection.url }}\/{{ current_tags | join: \"+\"}}{%- endcapture -%}\n<a class=\"breadcrumbs__link\" href=\"{{ tag_url }}\" aria-current=\"page\">{{ current_tags | join: \" + \"}}<\/a>\n<\/li>\n{%- else -%}\n<li class=\"breadcrumbs__item\">\n<a class=\"breadcrumbs__link\" href=\"{{ collection.url }}\" aria-current=\"page\">{{ collection.title }}<\/a>\n<\/li>\n{%- endif -%}\n{%- when 'blog' -%}\n{%- if current_tags -%}\n<li class=\"breadcrumbs__item\">\n{{ blog.title | link_to: blog.url }}\n<\/li>\n<li class=\"breadcrumbs__item\">\n{%- capture tag_url -%}{{blog.url}}\/tagged\/{{ current_tags | join: \"+\" }}{%- endcapture -%}\n<a class=\"breadcrumbs__link\" href=\"{{ tag_url }}\" aria-current=\"page\">{{ current_tags | join: \" + \" }}<\/a>\n<\/li>\n{%- else -%}\n<li class=\"breadcrumbs__item\">\n<a class=\"breadcrumbs__link\" href=\"{{ blog.url }}\" aria-current=\"page\">{{ blog.title }}<\/a>\n<\/li>\n{%- endif -%}\n{%- when 'article' -%}\n<li class=\"breadcrumbs__item\">\n{{ blog.title | link_to: blog.url }}\n<\/li>\n<li class=\"breadcrumbs__item\">\n<a class=\"breadcrumbs__link\" href=\"{{ article.url }}\" aria-current=\"page\">{{ article.title }}<\/a>\n<\/li>\n{%- else -%}\n<li class=\"breadcrumbs__item\">\n<a class=\"breadcrumbs__link\" href=\"{{ request.path }}\" aria-current=\"page\">{{ page_title }}<\/a>\n<\/li>\n{%- endcase -%}\n<\/ol>\n<\/nav>\n{%- endunless -%}",
+        "color_scheme": "",
+        "padding_top": 32,
+        "padding_bottom": 12
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [
+        "@media screen and (max-width: 768px) {form {width: 80%; }}",
+        "@media screen and (min-width: 900px) {h3 {padding-left: 10rem; } .card-information{padding-left:10rem; }}"
+      ],
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 12,
+        "padding_bottom": 8
+      }
+    }
+  },
+  "order": [
+    "4da47cb6-38c7-404c-82f4-f2158f5181b4",
+    "banner",
+    "e8eb136a-3c8d-4156-b5ab-1aeee0a5db4e",
+    "product-grid"
+  ]
+}
