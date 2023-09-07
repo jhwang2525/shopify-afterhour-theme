@@ -47,7 +47,7 @@
       "type": "main-collection-product-grid",
       "custom_css": [
         "@media screen and (max-width: 768px) {form {width: 80%; }}",
-        "@media screen and (min-width: 900px) {h3 {padding-left: 10rem; } .card-information{padding-left:10rem; }}"
+        "@media screen and (min-width: 900px) {h3 {padding-left: 10rem; } .card-information {padding-left: 18rem; }}"
       ],
       "settings": {
         "products_per_page": 24,
