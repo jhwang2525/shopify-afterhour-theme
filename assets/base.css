@@ -1032,8 +1032,6 @@ summary::-webkit-details-marker {
     width: calc(25% - var(--grid-desktop-horizontal-spacing) * 4 / 4);
     max-width: calc(40% - var(--grid-desktop-horizontal-spacing) * 4 / 4);
         border: 1px solid black;
-    margin-right: -1px;
-    margin-left: -1px;
     margin-top: -1px;
   }
 
