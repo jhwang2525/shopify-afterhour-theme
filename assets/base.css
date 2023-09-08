@@ -3439,3 +3439,8 @@ facet-filters-form.facets.small-hide {
     background-color: transparent;
   width:100%;
 }
+@media (max-width: 580px){
+    body, html{
+    overflow-x: hidden;
+}
+}
