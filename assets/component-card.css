@@ -128,8 +128,8 @@
 
 .card:not(.ratio) > .card__content {
   grid-template-rows: max-content minmax(0, 1fr) max-content auto;
-  border-left: 1px solid white;
-    border-right: 1px solid white;
+  border-left: 3px solid white;
+    border-right: 7px solid white;
 }
 
 @media screen and (min-width: 750px) {
