@@ -3194,7 +3194,7 @@ details-disclosure > details {
     animation: var(--animation-slide-in);
     animation-delay: calc(var(--animation-order) * 75ms);
     margin-right: -1px;
-    margin-left: -1px
+    margin-left: -1px;
     margin-bottom: -1px;
   }
 
