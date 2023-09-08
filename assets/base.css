@@ -3434,3 +3434,10 @@ padding-top: 0.5rem; padding-bottom: 0.5rem;}
 facet-filters-form.facets.small-hide {
   display: none !important;
 }
+#shopify-section-header {
+    position: relative;
+}
+.header-wrapper {
+    position: absolute;
+    background-color: transparent;
+}
