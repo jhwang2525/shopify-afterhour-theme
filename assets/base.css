@@ -3434,6 +3434,7 @@ facet-filters-form.facets.small-hide {
     position: absolute;
     background-color: transparent;
   width:100%;
+  border-bottom: 1px solid black;
 }
 @media (max-width: 580px){
     body, html{
