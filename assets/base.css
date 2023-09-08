@@ -3441,3 +3441,11 @@ facet-filters-form.facets.small-hide {
     position: absolute;
     background-color: transparent;
 }
+@media (min-width: 990px) {
+    .header--top-center > .header__search {
+        grid-area: icons !important;
+        display: flex !important;
+        justify-self: end !important;
+        padding-right: 77px !important;
+    }
+}
