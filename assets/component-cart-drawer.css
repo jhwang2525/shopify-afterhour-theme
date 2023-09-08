@@ -384,3 +384,6 @@ cart-drawer-items::-webkit-scrollbar-thumb {
 cart-drawer-items::-webkit-scrollbar-track-piece {
   margin-top: 31px;
 }
+.drawer.is-empty.animate.active {
+	z-index: 99999;
+}
