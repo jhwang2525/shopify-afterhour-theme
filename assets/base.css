@@ -3444,7 +3444,7 @@ facet-filters-form.facets.small-hide {
     overflow-x: hidden;
 }
 }
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 767px) {
 .product__media-item.grid__item {
 width: 100% !important;
 max-width: 100% !important;
