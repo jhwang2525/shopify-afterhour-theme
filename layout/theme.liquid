@@ -329,7 +329,24 @@ overflow: visible !important;
 </style>
 
   </head>
+  {% if template.name == 'index' %}
+  <style>
+  .header-wrapper {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
 
+  .header__menu-item, .header__active-menu-item, .header__icon .icon {
+      color:#fff
+  }
+
+  .header__menu-item:hover{
+      color:#fff;
+  }
+
+  </style>
+  {% endif %}
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
     {% section 'ezfy-custom-fonts' %}
     
