@@ -3195,6 +3195,7 @@ details-disclosure > details {
     animation-delay: calc(var(--animation-order) * 75ms);
     margin-right: -1px;
     margin-left: -1px
+    margin-bottom: -1px;
   }
 
   .scroll-trigger.scroll-trigger--design-mode.animate--fade-in,
