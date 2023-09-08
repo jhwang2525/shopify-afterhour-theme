@@ -63,6 +63,7 @@
     padding: 0 0 0 4rem;
     max-width: 35%;
     width: calc(35% - var(--grid-desktop-horizontal-spacing) / 2);
+    line-height: 20px
   }
 
   .product--large:not(.product--no-media).product--right .product__info-wrapper {
