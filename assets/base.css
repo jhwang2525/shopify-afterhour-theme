@@ -1031,7 +1031,6 @@ summary::-webkit-details-marker {
   .grid--4-col-desktop .grid__item {
     width: calc(25% - var(--grid-desktop-horizontal-spacing) * 4 / 4);
     max-width: calc(40% - var(--grid-desktop-horizontal-spacing) * 4 / 4);
-        border: 1px solid black;
     margin-top: -1px;
   }
 
