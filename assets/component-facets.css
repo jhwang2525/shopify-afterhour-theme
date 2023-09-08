@@ -664,10 +664,6 @@ a.active-facets__button.focused .active-facets__button-inner,
   text-underline-offset: 0.3rem;
 }
 
-.mobile-facets__open > * + * {
-  margin-left: -280px;
-}
-
 .mobile-facets__open svg {
   width: 2rem;
 }
