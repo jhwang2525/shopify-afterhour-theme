@@ -3,6 +3,7 @@
   height: 100%;
   position: relative;
   text-decoration: none;
+  border: 1px solid black;
 }
 
 .card {
