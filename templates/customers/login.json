@@ -3,7 +3,7 @@
     "main": {
       "type": "main-login",
       "custom_css": [
-        "@media screen and (max-width: 768px) {form {width: 80%; margin-left: 55px; }}"
+        "@media screen and (max-width: 768px) {form {width: 80%; margin-left: 20px; }}"
       ],
       "settings": {
         "padding_top": 88,
