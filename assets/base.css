@@ -2944,6 +2944,7 @@ details-disclosure > details {
 .global-media-settings model-viewer,
 .global-media-settings video {
   border-radius: calc(var(--media-radius) - var(--media-border-width));
+  border: 1px solid black;
 }
 
 .content-container--full-width,
