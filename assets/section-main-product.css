@@ -959,6 +959,7 @@ a.product__text {
 
 .product-popup-modal__opener {
   display: inline-block;
+  margin: 0;
 }
 
 .product-popup-modal__button {
