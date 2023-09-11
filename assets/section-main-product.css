@@ -179,7 +179,8 @@ variant-selects {
 
 .product-form__input--dropdown {
   margin-bottom: 1.6rem;
-  margin-left:40px;
+  margin-left: 20px;
+}
 }
 
 .product-form__input .form__label {
