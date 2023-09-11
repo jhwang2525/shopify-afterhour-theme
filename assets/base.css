@@ -413,7 +413,7 @@ blockquote {
   .caption {
     font-size: 1.2rem;
     color: black;
-    font-family: 'Helvetica Neue';
+    font-family: "Helvetica Neue Hv" !important
   }
 }
 
