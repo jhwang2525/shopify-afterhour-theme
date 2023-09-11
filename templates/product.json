@@ -93,7 +93,7 @@
         "label {transform: scale(0.9, 1);}",
         "h2 {font-size: 13px; letter-spacing: -0.5px; line-height: 22.4px; transform: scale(0.9, 1);}",
         ".form {width: 100%;}",
-        "@media only screen and (min-width: 750px) {.form__label {text-align: left; }}"
+        " .form__label {text-align: left; }"
       ],
       "settings": {
         "enable_sticky_info": true,
