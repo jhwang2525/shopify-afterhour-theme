@@ -3051,6 +3051,11 @@ details-disclosure > details {
 
 .rte > *:last-child {
   margin-bottom: 0;
+  font-size: 13px;
+    letter-spacing: -0.5px;
+    color: black;
+    line-height: 22.4px;
+    transform: scale(0.9, 1);
 }
 
 .rte table {
