@@ -174,7 +174,9 @@
 variant-radios,
 variant-selects {
   display: block;
-  padding-right: 20px
+  padding-right: 20px;
+  font-family: sans-serif;
+  color: black;
 }
 
 .product-form__input--dropdown {
