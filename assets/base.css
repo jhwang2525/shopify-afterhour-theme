@@ -3461,5 +3461,6 @@ max-width: 100% !important;
   .product-form__buttons {
     margin-left: 10rem;
   }
-   .product-form__input--dropdown{ margin-left: 10rem;
+   .product-form__input--dropdown{ 
+     margin-left: 10rem;
 }}
