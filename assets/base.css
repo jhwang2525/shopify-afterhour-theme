@@ -3455,3 +3455,14 @@ width: 100% !important;
 max-width: 100% !important;
 }
 }
+@media only screen and (max-width: 750px) {
+  .product-popup-modal__button {
+    margin-left: 17rem;
+  }
+}
+@media only screen and (min-width: 850px) {
+  .product-form__buttons {
+    margin-left: 10rem;
+  }
+   .product-form__input{ margin-left: 10rem;
+}}
