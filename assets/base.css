@@ -3461,7 +3461,7 @@ max-width: 100% !important;
   }
 }
 @media only screen and (min-width: 850px) {
-  .product-form__buttons {
+  .product-form__input--dropdown {
     margin-left: 10rem;
   }
    .product-form__input{ margin-left: 10rem;
