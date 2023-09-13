@@ -3463,4 +3463,14 @@ max-width: 100% !important;
   }
    .product-form__input--dropdown{ 
      margin-left: 10rem;
-}}
+}
+  .pickup-availability-preview{
+    margin-left:18rem;
+  }
+  .product-form__buttons{
+    margin-left:8rem;
+  }
+  .product-form__input--dropdown{
+    margin-left:10rem;
+  }
+}
