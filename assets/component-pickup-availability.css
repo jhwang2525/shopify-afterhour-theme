@@ -179,5 +179,5 @@ pickup-availability-drawer[open] {
 }
 @media screen and (max-width: 749px) {
 pickup-availability-preview{
-  display:none;
+  display:none !important;
 }}
