@@ -3461,9 +3461,12 @@ max-width: 100% !important;
   .pickup-availability-preview{
     margin-left:18rem !important;
   }
+}
+@media only screen and (min-width: 850px) {
   .product-form__buttons{
     margin-left:8rem !important;
-  }
+  }}
+@media only screen and (min-width: 850px) {
   .product-form__input--dropdown{
     margin-left:10rem !important;
   }
