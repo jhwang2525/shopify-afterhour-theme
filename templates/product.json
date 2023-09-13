@@ -87,14 +87,15 @@
         "collapsible-row-1"
       ],
       "custom_css": [
-        "h1 {font-family: \"Helvetica Neue Hv\" !important; transform: scale(0.9, 1); }",
+        "h1 {font-family: \"Helvetica Neue Hv\" !important; transform: scale(0.9, 1);}",
         "span {font-size: 14px; transform: scale(0.9, 1);}",
         "button {transform: scale(0.9, 1);}",
         "label {transform: scale(0.9, 1);}",
-        "h2 {font-size: 13px;letter-spacing: -0.5px; line-height: 22.4px; transform: scale(0.9, 1);}",
+        "h2 {font-size: 13px; letter-spacing: -0.5px; line-height: 22.4px; transform: scale(0.9, 1);}",
         ".form {width: 100%;}",
         ".form__label {text-align: left;}",
-        "@media only screen and (max-width: 750px) {.product-popup-modal__button {margin-left: 17rem; }}"
+        "@media only screen and (max-width: 750px) {.product-popup-modal__button {margin-left: 17rem; }}",
+        "h5{text-align:center;}"
       ],
       "settings": {
         "enable_sticky_info": true,
