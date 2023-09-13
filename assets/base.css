@@ -3457,3 +3457,14 @@ max-width: 100% !important;
 }
 
 }
+@media only screen and (min-width: 850px) {
+  .pickup-availability-preview{
+    margin-left:18rem !important;
+  }
+  .product-form__buttons{
+    margin-left:8rem !important;
+  }
+  .product-form__input--dropdown{
+    margin-left:10rem !important;
+  }
+}
