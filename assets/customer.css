@@ -379,6 +379,10 @@
 #recover,
 #login {
   scroll-margin-top: 20rem;
+  font-family: 'Helvetica' !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    transform: scale(0.9, 1);
 }
 
 #recover {
