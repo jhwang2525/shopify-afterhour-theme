@@ -1762,7 +1762,7 @@ details[open] > .share-button__fallback {
   transition: top var(--duration-short) ease, font-size var(--duration-short) ease;
   color: black;
   transform: scaleX(.9);
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.1px;
   line-height: 1.5;
 }
 
