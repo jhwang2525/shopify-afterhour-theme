@@ -529,5 +529,12 @@
     "page_titles": {
       "account": "MY ACCOUNT"
     }
+  },
+  "customer_accounts": {
+    "navigation_and_structure": {
+      "account_menu": {
+        "label": "MY ACCOUNT"
+      }
+    }
   }
 }
