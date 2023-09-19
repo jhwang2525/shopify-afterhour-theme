@@ -527,7 +527,12 @@
       "powered_by_shopify": " "
     },
     "page_titles": {
-      "account": "MY ACCOUNT"
+      "account": "Account"
+    },
+    "checkout": {
+      "customer_account": {
+        "rollup_label": "Account"
+      }
     }
   }
 }
