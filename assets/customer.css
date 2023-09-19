@@ -333,6 +333,8 @@
   display: block;
   margin: 0 auto;
   width: fit-content;
+  color: #000;
+    transform: scaleX(.9);
 }
 
 .login a[href='#recover'] {
