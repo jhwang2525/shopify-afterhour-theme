@@ -342,6 +342,8 @@
 
 .login .field + a {
   margin-top: 1rem;
+  color: black;
+    transform: scaleX(.9);
 }
 
 .login p {
