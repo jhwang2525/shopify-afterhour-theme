@@ -464,6 +464,7 @@
 @media screen and (min-width: 990px) {
   :is(.account, .order) h2 {
     margin-top: 0;
+    border-bottom: 1px solid #e3e3e3;
   }
 }
 
