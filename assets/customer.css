@@ -387,6 +387,7 @@
     font-weight: 700;
     text-transform: uppercase;
     transform: scale(0.9, 1);
+  margin-right: 30px
 }
 
 #recover {
