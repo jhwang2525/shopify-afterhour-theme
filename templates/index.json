@@ -14,7 +14,6 @@
     },
     "536aa87b-198f-49b1-8c19-c2fa0455a9e4": {
       "type": "custom-liquid",
-      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 769px) {#openthinkingvideo {display: none !important; }}"
       ],
