@@ -3476,3 +3476,17 @@ max-width: 100% !important;
 #shopify-section-template--16108529975450__main h5{
   text-align:center !important;
 }
+
+@media screen and (max-width: 749px) {
+body .product-popup-modal__content{
+   width: auto;
+   transform: translate(-50%,-50%) ;
+   top: 50% ;
+   height: auto ;
+   min-width: 90% ;
+   padding: 0 3rem 0 3rem ;
+}
+body .product-popup-modal__content-info {
+    padding-right: 0 ;
+}
+}
