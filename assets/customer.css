@@ -86,10 +86,6 @@
   }
 }
 
-.customer tbody {
-  color: rgb(var(--color-foreground));
-}
-
 .customer th,
 .customer td {
   font-weight: 400;
