@@ -630,6 +630,7 @@ a.active-facets__button.focused .active-facets__button-inner,
   font-size: 1.3rem;
   margin: 0;
   flex-grow: 1;
+  display:none;
 }
 
 .mobile-facets__open-wrapper {
