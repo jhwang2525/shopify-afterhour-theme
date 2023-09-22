@@ -65,6 +65,7 @@
   border-collapse: collapse;
   font-family: "Open Sans" !important;
     letter-spacing: -1px;
+  margin-top: 30px;
   border-bottom: 0.01rem solid rgba(var(--color-foreground), 0.08);
   box-shadow: none;
   width: 100%;
