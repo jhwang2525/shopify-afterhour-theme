@@ -23,29 +23,27 @@
       assign paginate_by = 28
     endif
   -%}
-  {%- paginate collections by paginate_by -%}
-    <ul
-      class="collection-list grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
-      role="list"
-    >
-      {%- for collection in collections -%}
-        <li
-          class="collection-list__item grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          {% if settings.animations_reveal_on_scroll %}
-            data-cascade
-            style="--animation-order: {{ forloop.index }};"
-          {% endif %}
-        >
-          {% render 'card-collection',
-            card_collection: collection,
-            media_aspect_ratio: section.settings.image_ratio,
-            columns: 3
-          %}
-        </li>
-      {%- endfor -%}
-    </ul>
-    {% render 'pagination', paginate: paginate %}
-  {%- endpaginate -%}
+   {% paginate collection.products by 20 %}
+    <!-- the top of your collections.liquid -->
+    
+    <!-- START PRODUCTS -->
+    {% for product in collection.products %}
+    	    <!-- START PRODUCT {{ forloop.index | plus:paginate.current_offset }} -->
+    	    <div class="product" id="product-{{ forloop.index | plus:paginate.current_offset }}">
+                {% include 'product' with product %}
+            </div> 
+    	    <!-- END PRODUCT {{ forloop.index | plus:paginate.current_offset }} -->
+    {% endfor %}
+	
+    {% if paginate.next %}
+        <div id="more"><p>&darr; <a href="{{ paginate.next.url }}">More</a></p></div>        
+    {% endif %}
+
+    <div id="product-list-foot"></div>
+    <!-- END PRODUCTS -->
+    
+    <!-- the bottom of your collections.liquid -->
+    {% endpaginate %}
 </div>
 {% schema %}
 {
