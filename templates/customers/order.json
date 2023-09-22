@@ -3,7 +3,7 @@
     "main": {
       "type": "main-order",
       "custom_css": [
-        "p {font-size: 1.2rem;}"
+        "p {font-size: 14px;}"
       ],
       "settings": {
         "padding_top": 36,
