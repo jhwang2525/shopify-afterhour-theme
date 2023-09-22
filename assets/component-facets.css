@@ -726,6 +726,7 @@ details.menu-opening .mobile-facets__close svg {
 
 .mobile-facets__main {
   padding: 2.7rem 0 0;
+  color: black;
   position: relative;
   z-index: 1;
   flex-grow: 1;
