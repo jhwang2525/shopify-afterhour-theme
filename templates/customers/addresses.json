@@ -3,7 +3,7 @@
     "main": {
       "type": "main-addresses",
       "custom_css": [
-        "p{font-size: 1.4rem;}"
+        "p {font-size: 1.4rem; color:black;}"
       ],
       "settings": {
         "padding_top": 100,
