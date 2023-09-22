@@ -1,7 +1,14 @@
 {
   "sections": {
     "main": {
-      "type": "main-order"
+      "type": "main-order",
+      "custom_css": [
+        "p{font-size:1.4rem;}"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
