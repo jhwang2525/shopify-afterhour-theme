@@ -268,7 +268,7 @@
       }
     },
     "cart": {
-      "title": "Your cart",
+      "title": "BAG",
       "caption": "Cart items",
       "remove_title": "Remove {{ title }}",
       "subtotal": "Subtotal",
@@ -534,7 +534,7 @@
         "rollup_label": "Account"
       },
       "throttle": {
-        "cart_summary_heading": "BAG"
+        "cart_summary_heading": "Your cart"
       }
     }
   }
