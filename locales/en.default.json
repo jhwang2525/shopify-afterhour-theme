@@ -532,6 +532,9 @@
     "checkout": {
       "customer_account": {
         "rollup_label": "Account"
+      },
+      "throttle": {
+        "cart_summary_heading": "BAG"
       }
     }
   }
