@@ -934,6 +934,7 @@ a.product__text {
     margin-top: 10rem;
     width: 70%;
     padding: 0 3rem;
+    background-color:white;
   }
 
   .product-media-modal__dialog .global-media-settings--no-shadow {
