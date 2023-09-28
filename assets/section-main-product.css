@@ -987,6 +987,7 @@ a.product__text {
 
 .product-popup-modal__content-info {
   padding-right: 0;
+  padding-bottom: 30px;
 }
 
 .product-popup-modal__content-info > * {
@@ -999,6 +1000,7 @@ a.product__text {
 @media screen and (max-width: 749px) {
   .product-popup-modal__content-info > * {
     max-height: 100%;
+    
   }
 }
 
