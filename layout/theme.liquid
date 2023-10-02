@@ -337,6 +337,11 @@ overflow: visible !important;
 }
 </style>
 {% if template contains 'collection' %}{{ 'https://cdn.shopify.com/s/files/1/0382/4185/files/ajaxinate.js?937' | script_tag }}{% endif %}
+<style>
+.facet-filters__sort option[value="size"] {
+ display: none;
+}
+</style>
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
