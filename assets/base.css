@@ -3489,4 +3489,14 @@ max-width: 100% !important;
 #shopify-section-template--16108529975450__main h5{
   text-align:center !important;
 }
+@media screen and (max-width: 767px){
 
+img.header__heading-logo {
+
+    height: 50px !important;
+
+    width: 50px !important;
+
+}
+
+}
