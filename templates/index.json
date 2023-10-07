@@ -28,11 +28,12 @@
     },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "custom_css": [
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Banner.jpg",
+        "image": "shopify:\/\/shop_images\/Banner1-1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",
