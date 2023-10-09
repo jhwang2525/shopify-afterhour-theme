@@ -28,6 +28,9 @@
     },
     "465833d6-15c3-4999-b95b-738b19e0f25d": {
       "type": "image-banner",
+      "custom_css": [
+        "@media screen and (max-width: 749px) {#Banner-template--16108529811610__image_banner:first-child {display: none !important; }}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Banner1-1_000444bb-2812-4590-86fe-957132a6212e.jpg",
         "image_overlay_opacity": 0,
@@ -36,7 +39,7 @@
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
-        "image_behavior": "fixed",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
