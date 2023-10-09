@@ -56,11 +56,16 @@
 
   .banner--medium:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {
     min-height: 34rem;
+    
   }
 
   .banner--large:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {
     min-height: 39rem;
   }
+  
+  .banner:not(.banner--mobile-bottom):not(.banner--adapt) .banner__content {
+  align-items: self-end;
+}
 }
 
 @media screen and (min-width: 750px) {
