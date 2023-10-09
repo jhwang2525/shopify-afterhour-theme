@@ -29,7 +29,7 @@
     "image_banner": {
       "type": "image-banner",
       "custom_css": [
-        "#Banner-template--16108529811610__image_banner {padding-bottom: 15% !important;}"
+
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Banner1-1_000444bb-2812-4590-86fe-957132a6212e.jpg",
