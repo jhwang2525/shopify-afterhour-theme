@@ -3500,3 +3500,8 @@ img.header__heading-logo {
 }
 
 }
+@media only screen and (min-width: 1200px) {
+.banner > .banner__media > img {
+    object-fit: fill;
+}
+}
