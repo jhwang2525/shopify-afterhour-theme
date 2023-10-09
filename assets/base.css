@@ -3505,3 +3505,8 @@ img.header__heading-logo {
     object-fit: fill;
 }
 }
+@media only screen and (max-width: 749px) {
+.banner > .banner__media > img {
+    object-fit: fill;
+}
+}
