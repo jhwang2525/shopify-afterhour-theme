@@ -19,39 +19,7 @@ If you plan to remove PageFly, please see the guide in our help center first: ht
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
     {%- endif -%}
 
-    {%- unless settings.type_header_font.system? and settings.type_body_font.syst<style>
-#shopify-section-header.sticky {
-background:#ffffff !important;
-position: fixed !important;
-top: 0 !important;
-width: 100%;
-z-index:99;
--webkit-transition: all .6s ease;
--moz-transition: all .6s ease;
--o-transition: all .6s ease;
-transition: all .6s ease;
-}
-#shopify-section-header{
--webkit-transition: all .6s ease;
--moz-transition: all .6s ease;
--o-transition: all .6s ease;
-transition: all .6s ease;
-}
-</style>
-<script>
-window.onscroll = function() {myFunction()};
-
-var header = document.getElementById("shopify-section-header");
-var sticky = header.offsetTop;
-
-function myFunction() {
-if (window.pageYOffset > sticky) {
-header.classList.add("sticky");
-} else {
-header.classList.remove("sticky");
-}
-}
-</script>em? -%}
+    {%- unless settings.type_header_font.system? and settings.type_body_font.syst.style -%}
       <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
     {%- endunless -%}
 
@@ -318,3 +286,47 @@ header.classList.remove("sticky");
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}"><div class="pagefly-container">{{ content_for_layout }}</div></body>
 </html>
+{% comment %}
+
+This file has been rewritten to preserve the original behavior.
+
+---
+Changes:
+- from: |-
+    {%- unless settings.type_header_font.system? and settings.type_body_font.syst<style>
+    #shopify-section-header.sticky {
+    background:#ffffff !important;
+    position: fixed !important;
+    top: 0 !important;
+    width: 100%;
+    z-index:99;
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+    }
+    #shopify-section-header{
+    -webkit-transition: all .6s ease;
+    -moz-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+    }
+    </style>
+    <script>
+    window.onscroll = function() {myFunction()};
+
+    var header = document.getElementById("shopify-section-header");
+    var sticky = header.offsetTop;
+
+    function myFunction() {
+    if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+    } else {
+    header.classList.remove("sticky");
+    }
+    }
+    </script>em? -%}
+  to: "{%- unless settings.type_header_font.system? and settings.type_body_font.syst.style
+    -%}"
+  position: 901..988
+{% endcomment %}
